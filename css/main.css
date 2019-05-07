@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+  background:chocolate center no-repeat;
+  background-size:cover;
+  min-height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Futura,"Trebuchet MS",Arial,sans-serif
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+input:checked + li {
+  background:#F9F9F9;
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  margin:20px;
+}
+
+.main {
+  padding: 15px;
+}
+
+.form-inline {
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+#delete {
+  margin-left: 26px;
+  margin-top: 10px;
+}
+
+.todos {
+  margin: 10px;
+}
+
+.todo {
+  padding: 5px;
+}
+
+.todo input li i {
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.todo input {
+  margin: 12px;
+}
+
+.todo i {
+  margin: 4px;
+}
+
+.todo li {
+  max-width: 100%;
+}
